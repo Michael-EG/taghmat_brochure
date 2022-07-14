@@ -1,0 +1,37 @@
+<!-- public/sitemap.xml -->
+   <xml version="1.0" encoding="UTF-8">
+   <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+     <url>
+       <loc>https://www.alnour-assoc.com/</loc>
+       <lastmod>2022-07-04</lastmod>
+     </url>
+     <url>
+       <loc>https://www.alnour-assoc.com</loc>
+       <lastmod>2022-07-04</lastmod>
+     </url>
+     <url>
+       <loc>https://www.alnour-assoc.com/analysis-advice</loc>
+       <lastmod>2022-07-04</lastmod>
+     </url>
+     <url>
+       <loc>https://www.alnour-assoc.com/document-management</loc>
+       <lastmod>2022-07-04</lastmod>
+     </url>
+     <url>
+       <loc>https://www.alnour-assoc.com/info-print-copy</loc>
+       <lastmod>2022-07-04</lastmod>
+     </url>
+     <url>
+       <loc>https://www.alnour-assoc.com/office-solutions</loc>
+       <lastmod>2022-07-04</lastmod>
+     </url>
+     <url>
+       <loc>https://www.alnour-assoc.com/software-solutions</loc>
+       <lastmod>2022-07-04</lastmod>
+     </url>
+     <url>
+       <loc>https://www.alnour-assoc.com/technical-support</loc>
+       <lastmod>2022-07-04</lastmod>
+     </url>
+   </urlset>
+   </xml>

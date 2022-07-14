@@ -1,0 +1,89 @@
+.anouncementBar {
+    /* margin-left: 10vw;
+    margin-right: 10vw; */
+    padding-left: 10vw;
+    padding-right: 10vw;
+    /* background-color: red; */
+}
+
+.anouncementBar__Text_NoHover {
+    /* font-size: 1.25vw !important; */
+    font-size: min(max(9px, 1.25vw), 15px) !important;
+    /* font-weight: bold; */
+    color: #3b3b3b;
+}
+.anouncementBar__Text {
+    /* font-size: 1.25vw !important; */
+    font-size: min(max(9px, 1.25vw), 15px) !important;
+    /* font-weight: lighter !important; */
+    color: #3b3b3b;
+}
+.anouncementBar__Text:hover {
+    /* font-size: 1.25vw !important; */
+    font-size: min(max(9px, 1.25vw), 15px) !important;
+    /* font-weight: lighter !important; */
+    color: #b9b9b9;
+    cursor: pointer;
+    text-decoration: underline !important;
+    text-decoration-color: #3b3b3b !important;
+    /* -moz-text-decoration-color: #3b3b3b !important; */
+}
+
+.anouncementBar__MenuList {
+    max-height: fit-content !important;
+    /* max-height: min(max(12px, 1.25vw), 17px) !important; */
+    justify-content: flex-end !important;
+    /* align-content: flex-end !important; */
+    align-items: center !important;
+}
+
+.anouncementBar__MenuListEN {
+    max-height: fit-content !important;
+    /* max-height: min(max(12px, 1.25vw), 17px) !important; */
+    /* justify-content: flex-end !important; */
+    /* align-content: flex-end !important; */
+    align-items: center !important;
+}
+
+/* .anouncementBar__Item {
+    
+} */
+
+/* @media screen and (max-width: 960) {
+    .anouncementBar__RightPaneAR {
+        justify-content: center !important;
+        align-items: center !important;
+    }
+} */
+.anouncementBar__RightPaneAR {
+    justify-content: flex-end !important;
+    align-items: flex-end !important;
+    /* background-color: red; */
+}
+@media (min-width: 0px) and (max-width: 960px) {
+    .anouncementBar__RightPaneAR {
+        /* margin-right: 30vw !important; */
+        justify-content: center !important;
+        align-items: flex-end !important;
+        /* background-color: yellow; */
+    }
+}
+
+.anouncementBar__LeftPane {
+    justify-content: flex-start !important;
+    align-items: flex-end !important;
+    /* background-color: red; */
+}
+@media (min-width: 0px) and (max-width: 960px) {
+    .anouncementBar__LeftPane {
+        justify-content: center !important;
+        align-items: flex-end !important;
+        /* background-color: blue; */
+        /* max-width: 400px; */
+    }
+}
+
+/* @media screen and (max-width: 960) {
+    
+} */
+
