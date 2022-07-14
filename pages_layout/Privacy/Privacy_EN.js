@@ -4,6 +4,7 @@ import { dark_grey } from '../../public/colors';
 
 export default function Privacy_EN() {
   return (
+    // Hello Mr.George This is the important part (Start of Privacy policy HTML)
     <div style={{ padding: '15vh 15vw' }}>
       {/* <Article2_EN
         paragraphHeadingColor={dark_grey}
@@ -86,9 +87,9 @@ export default function Privacy_EN() {
         <strong>Cookies</strong>
       </p>{' '}
       <p>
-        Cookies are files with a small amount of data that are commonly used as
-        anonymous unique identifiers. These are sent to your browser from the
-        websites that you visit and are stored on your device's internal memory.
+        {
+          "Cookies are files with a small amount of data that are commonly used as anonymous unique identifiers. These are sent to your browser from the websites that you visit and are stored on your device's internal memory."
+        }
       </p>{' '}
       <p>
         This Service does not use these “cookies” explicitly. However, the app
@@ -190,5 +191,6 @@ export default function Privacy_EN() {
       {/* </body>
     </html> */}
     </div>
+    // Hello Mr.George This is the important part (End of Privacy policy HTML)
   );
 }
