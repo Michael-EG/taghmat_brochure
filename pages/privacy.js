@@ -1,5 +1,6 @@
 import React, { useContext } from 'react';
 import Layout from '../components/Layout';
+import Privacy2_EN from '../pages_layout/Privacy/Privacy2_EN';
 import Privacy_AR from '../pages_layout/Privacy/Privacy_AR';
 import Privacy_EN from '../pages_layout/Privacy/Privacy_EN';
 import { Store } from '../utils/store';
@@ -27,9 +28,9 @@ export default function Privacy() {
         }
       >
         {/* <div>English analysis advice</div> */}
-        {language === 'EN' && <Privacy_EN />}
+        {language === 'EN' && <Privacy2_EN />}
         {/* {language === 'EN' && <div>English is decided</div>} */}
-        {language === 'AR' && <Privacy_EN />}
+        {language === 'AR' && <Privacy2_EN />}
         {language !== 'EN' && language !== 'AR' && <div>Not decided</div>}
       </Layout>
     </div>
